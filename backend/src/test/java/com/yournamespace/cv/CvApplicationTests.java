@@ -1,4 +1,4 @@
-package com.yournamespace.cv_backend;
+package com.yournamespace.cv;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

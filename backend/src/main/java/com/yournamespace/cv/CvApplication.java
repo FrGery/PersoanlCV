@@ -1,5 +1,4 @@
-package com.yournamespace.cv_backend;
-
+package com.yournamespace.cv;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
