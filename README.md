@@ -1,3 +1,3 @@
 # PersoanlCV
-
-Első lépés:
+### Első lépés:
+- Innen folytatom
