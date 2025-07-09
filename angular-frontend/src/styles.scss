@@ -1,1 +1,26 @@
 @import "bootstrap/scss/bootstrap";
+
+body {
+  position: relative;
+  background-image: url('assets/backg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  z-index: 0;
+  margin: 0;
+  padding: 0;
+
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(240, 246, 238, 0.28);
+  pointer-events: none;
+  z-index: 1;
+}
