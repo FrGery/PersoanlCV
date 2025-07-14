@@ -1,0 +1,14 @@
+.navbar {
+  background-color: rgba(70, 126, 76, 0.8) !important; // green
+  color: rgba(159, 59, 59, 0.48) !important; // white text
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: rgb(255, 255, 255) !important;
+  font-weight: 700; // bold text
+  -webkit-text-stroke: 1px #000000; // thicker outline
+  font-family: 'Roboto', Arial, sans-serif !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); // horizontal, vertical, blur, color
+
+}

@@ -1,0 +1,36 @@
+.cv-card {
+  max-width: 100%;
+  margin: 2rem auto;
+  padding: 0;
+
+  .card {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  }
+
+  .card-body {
+    padding: 1.5rem;
+  }
+
+  img {
+    max-height: 70%;
+    object-fit: cover;
+  }
+  .cv-card {
+    position: relative;      // szükséges a z-index működéséhez
+    z-index: 10;             // hozd "előrébb"
+    background: white;       // biztosítsd, hogy háttér ne legyen átlátszó
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+
+    .card {
+      background-color: white;
+    }
+
+    img {
+      z-index: 11;
+      position: relative;
+    }
+  }
+}
