@@ -33,4 +33,27 @@
       position: relative;
     }
   }
+  .rounded-card {
+    border-radius: 2rem !important;
+  }
+
+  .card.rounded-card {
+    overflow: hidden;
+  }
+
+.clickable-card {
+  text-decoration: none;
+  display: block;
+}
+
+.clickable-card .card {
+  transition: box-shadow 0.6s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.2s;
+  cursor: pointer;
+  box-shadow: none;
+}
+
+.clickable-card:hover .card {
+  box-shadow: 0 0 0 5px #fff, 0 4px 24px #ffd70033;
+  border: 2px solid #ffd700;
+}
 }

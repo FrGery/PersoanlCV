@@ -12,3 +12,14 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); // horizontal, vertical, blur, color
 
 }
+
+
+.rounded-navbar {
+  border-radius: 0 0 2rem 2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  border: 1px solid rgba(70,126,76,0.3);
+  background-image: linear-gradient(to right, #3a6c40, #8bcb8f);
+  opacity: 0.75;
+  padding: 0.5rem 2rem;
+  filter: drop-shadow(0 2px 4px rgba(70,126,76,0.2));
+}
