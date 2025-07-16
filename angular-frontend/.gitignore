@@ -42,3 +42,7 @@ testem.log
 Thumbs.db
 
 angular-frontend/src/assets/backg.png
+
+# Képformátum kizárása
+*.png
+*.jpg

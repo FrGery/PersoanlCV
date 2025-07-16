@@ -24,3 +24,7 @@ hs_err_pid*
 replay_pid*
 
 angular-frontend/src/assets/backg.png
+
+# Képformátum kizárása
+*.png
+*.jpg
